@@ -1,0 +1,98 @@
+:root {
+    /* fonts */
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif; 
+    /* fonts colors */
+    --primary-font-color: #757575;
+    --title-font-color: #212121;
+    --secondary-font-color: #ffffff;
+    --logo-blue-color: #2196F3;
+    --logo-dark-color: #000000;
+    /* fonts properties */
+    --line-height-26: calc(31 / 26);
+}
+
+body {
+    font-family: var(--primary-font);
+    font-style: normal;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: var(--line-height-26);
+    letter-spacing: 0.03em;
+    color: var(--logo-blue-color);
+    text-decoration: none;
+}
+/* верхний логотип */
+.logo-dark {
+    color: var(--logo-dark-color);
+}
+/* нижний логотип */
+.logo-white {
+    color: var(--secondary-font-color);
+}
+/* ссылки навигации */
+.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-font-color);
+    text-decoration: none;
+}
+/* hover ( эфект при наведении) */
+.nav-link:hover, .nav-link:focus {
+    color: #2196F3;
+}
+/* контакти */
+.contact-link {
+    color: var(--primary-font-color)
+}
+/* заголовок супер-герой */
+.hero-title {
+    color: var(--secondary-font-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+/* кнопка заказа услуг */
+.order-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
+    color: var(--secondary-font-color)
+}
+/* секция особенностей компании */
+/* особенности компании заголовки*/
+.feature-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-font-color);
+}
+/* особенности компании контент */
+.feature-content {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--primary-font-color)
+}
+.bussines-title {
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: none;
+}
