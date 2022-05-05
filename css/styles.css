@@ -1,7 +1,7 @@
 :root {
     /* fonts */
     --primary-font: 'Roboto', sans-serif;
-    --secondary-font: 'Raleway', sans-serif; 
+    --secondary-font: 'Raleway', sans-serif;
     /* fonts colors */
     --primary-font-color: #757575;
     --title-font-color: #212121;
@@ -25,19 +25,22 @@ ul {
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
-    line-height: var(--line-height-26);
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--logo-blue-color);
     text-decoration: none;
 }
+
 /* верхний логотип */
 .logo-dark {
     color: var(--logo-dark-color);
 }
+
 /* нижний логотип */
 .logo-white {
     color: var(--secondary-font-color);
 }
+
 /* ссылки навигации */
 .nav-link {
     font-weight: 500;
@@ -47,14 +50,18 @@ ul {
     color: var(--title-font-color);
     text-decoration: none;
 }
+
 /* hover ( эфект при наведении) */
-.nav-link:hover, .nav-link:focus {
-    color: #2196F3;
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--logo-blue-color);
 }
+
 /* контакти */
 .contact-link {
-    color: var(--primary-font-color)
+    color: var(--primary-font-color);
 }
+
 /* заголовок супер-герой */
 .hero-title {
     color: var(--secondary-font-color);
@@ -65,14 +72,17 @@ ul {
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
+
 /* кнопка заказа услуг */
 .order-button {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.06em;
-    color: var(--secondary-font-color)
+    color: var(--secondary-font-color);
+    cursor: pointer;
 }
+
 /* секция особенностей компании */
 /* особенности компании заголовки*/
 .feature-title {
@@ -83,39 +93,45 @@ ul {
     text-transform: uppercase;
     color: var(--title-font-color);
 }
+
 /* особенности компании контент */
 .feature-content {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: var(--primary-font-color)
+    color: var(--primary-font-color);
 }
+
 .bussines-title {
     font-size: 36px;
     line-height: 42px;
     text-transform: none;
 }
+
 /* сотрудники список */
 .names-content {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    color: var(--title-font-color)
+    color: var(--title-font-color);
 }
+
 /* професии сотрудников */
 .professions-content {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    color: var(--primary-font-color)
+    color: var(--primary-font-color);
 }
+
 /* footer */
 .address-content {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: var(--secondary-font-color)
+    color: var(--secondary-font-color);
+    font-style: normal;
 }
 
 .footer-contact-link {
@@ -123,19 +139,27 @@ ul {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
 }
 
 .active-link {
     color: var(--logo-blue-color);
 }
-/* портфолио фильтр */
+
+/* кнопки в портфолио */
 .filter-button {
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
+    font-size: 16px;
+    line-height: 1.6;
     letter-spacing: 0.02em;
     color: var(--title-font-color);
+    cursor: pointer;
 }
+
+.filter-button:hover, .filter-button:focus {
+    color: var(--secondary-font-color);
+}
+
 /* карточки */
 /* оглавление */
 .card-title {
@@ -145,6 +169,7 @@ ul {
     letter-spacing: 0.06em;
     color: var(--title-font-color);
 }
+
 /* content */
 .card-content {
     font-size: 16px;
