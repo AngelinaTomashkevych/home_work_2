@@ -5,53 +5,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <header>
-        <a href="#">WebStudio</a>
+        <a href="./index.html" class="logo">
+            Web<span class="logo-dark">Studio</span>
+        </a>
         <nav>
             <ul>
-                <li><a href="#">Студия</a></li>
-                <li><a href="#">Портфолио</a></li>
-                <li><a href="#">Контакты</a></li>
+                <li><a href="./index.html" class="nav-link active-link">Студия</a></li>
+                <li><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
+                <li><a href="#" class="nav-link">Контакты</a></li>
             </ul>
         </nav>
         <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li><a href="mailto:info@devstudio.com" class="nav-link contact-link">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="nav-link contact-link">+38 096 111 11 11</a></li>
         </ul>
     </header>
     <!-- секция герой -->
     <main>
         <section>
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <button type="button">Заказать услугу</button>
+            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+            <button type="button" class="order-button">Заказать услугу</button>
         </section>
         <section>
-            <h2>Особенности компании</h2>
+            <h2 hidden>Особенности компании</h2>
             <ul>
                 <li>
-                    <h3>Внимание к деталям</h3>
-                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    <h3 class="feature-title">Внимание к деталям</h3>
+                    <p class="feature-content">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
                 <li>
-                    <h3>Пунктуальность</h3>
-                    <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    <h3 class="feature-title">Пунктуальность</h3>
+                    <p class="feature-content">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
                 <li>
-                    <h3>Планирование</h3>
-                    <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    <h3 class="feature-title">Планирование</h3>
+                    <p class="feature-content">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
                 <li>
-                    <h3>Современные технологии</h3>
-                    <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    <h3 class="feature-title">Современные технологии</h3>
+                    <p class="feature-content">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
         </section>
         <section>
-            <h2>Чем мы занимаемся</h2>
+            <h2 class="feature-title bussines-title">Чем мы занимаемся</h2>
             <ul>
                 <li><img src="./images/img_1.jpg" alt="hands on keyboard" width="370" height="294"></li>
                 <li><img src="./images/img_2.jpg" alt="phone in hands" width="370" height="294"></li>
@@ -59,33 +67,33 @@
             </ul>
         </section>
         <section>
-            <h2>Наша команда</h2>
+            <h2 class="feature-title bussines-title">Наша команда</h2>
             <ul>
                 <li><img src="./images/img_2.1.jpg" alt="portrait" width="270" height="260">
-                    <p>Игорь Демьяненко</p>
-                    <p>Product Designer</p>
+                    <p class="names-content">Игорь Демьяненко</p>
+                    <p class="professions-content">Product Designer</p>
                 </li>
                 <li><img src="./images/img_2.2.jpg" alt="portrait" width="270" height="260">
-                    <p>Ольга Репина</p>
-                    <p>Frontend Developer</p>
+                    <p class="names-content">Ольга Репина</p>
+                    <p class="professions-content">Frontend Developer</p>
                 </li>
                 <li><img src="./images/img_2.3.jpg" alt="portrait" width="270" height="260">
-                    <p>Николай Тарасов</p>
-                    <p>Marketing</p>
+                    <p class="names-content">Николай Тарасов</p>
+                    <p class="professions-content">Marketing</p>
                 </li>
                 <li><img src="./images/img_2.4.jpg" alt="portrait" width="270" height="260">
-                    <p>Михаил Ермаков</p>
-                    <p>UI Designer</p>
+                    <p class="names-content">Михаил Ермаков</p>
+                    <p class="professions-content">UI Designer</p>
                 </li>
             </ul>
         </section>
     </main>
-    <footer><a href="#">WebStudio</a>
+    <footer><a href="./index.html" class="logo">Web <span class="logo-white">Studio</span> </a>
         <address>
             <ul>
-                <li>г. Киев, пр-т Леси Украинки, 26</li>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="address-content">г. Киев, пр-т Леси Украинки, 26</li>
+                <li><a href="mailto:info@devstudio.com" class="footer-contact-link">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="footer-contact-link">+38 096 111 11 11</a></li>
             </ul>
         </address>
     </footer>
