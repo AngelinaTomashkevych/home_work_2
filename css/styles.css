@@ -85,7 +85,6 @@ ul {
 }
 /* особенности компании контент */
 .feature-content {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -95,4 +94,61 @@ ul {
     font-size: 36px;
     line-height: 42px;
     text-transform: none;
+}
+/* сотрудники список */
+.names-content {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--title-font-color)
+}
+/* професии сотрудников */
+.professions-content {
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--primary-font-color)
+}
+/* footer */
+.address-content {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--secondary-font-color)
+}
+
+.footer-contact-link {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.active-link {
+    color: var(--logo-blue-color);
+}
+/* портфолио фильтр */
+.filter-button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-font-color);
+}
+/* карточки */
+/* оглавление */
+.card-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-font-color);
+}
+/* content */
+.card-content {
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    color: var(--primary-font-color);
 }
